@@ -9,7 +9,7 @@ const ShopContextProvider = ({ children }) => {
   const [cart, setCart] = useState({});
   const [products, setProducts] = useState([]);
   const [Ctoken, setToken] = useState(null);
-  const backendUrl = "http://localhost:3000";
+  const backendUrl = "https://ecommerce-backend-g6b5.onrender.com";
   const navigate=useNavigate();
   const cartCount = () => {
     let count = 0;

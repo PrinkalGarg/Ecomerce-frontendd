@@ -42,13 +42,13 @@ function Navbar() {
         </div>
         <div className="flex  items-center mr-4  row-auto">
           <img
-            src="./assets/images/icon.webp"
+            src="../public/icon.webp"
             className="w-14 p-2 hover:cursor-pointer "
             alt="user"
           />
           <div className="group relative cursor-pointer">
             <img
-              src="./assets/images/user.png"
+              src="../public/user.png"
               className="w-10 hover:cursor-pointer p-2 "
               alt="user"
               onClick={() => {
@@ -86,7 +86,7 @@ function Navbar() {
           </div>
           <Link to={"/cart"} className="relative">
             <img
-              src="./assets/images/cart.webp "
+              src="../public/cart.webp "
               className="w-16 p-2 hover:cursor-pointer"
               alt="cart"
             />

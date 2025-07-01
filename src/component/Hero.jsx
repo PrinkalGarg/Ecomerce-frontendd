@@ -10,7 +10,7 @@ function Hero() {
             <p className='md:text-3xl text-xl md:font-bold font-semibold  md:pl-4'>Explore the world of fashion</p>
             <p className='md:text-xl text-lg md:pl-4'>Shop Now____</p>
         </div>
-        <img src='./assets/images/model.jpg' alt='model' className='md:w-[28rem] md:h-[28rem] w-48 h-48 '/>
+        <img src='../public/model.jpg' alt='model' className='md:w-[28rem] md:h-[28rem] w-48 h-48 '/>
         </div>
     </div>
   )
